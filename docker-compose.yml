@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+  task-manager-service:
+    container_name: task-manager-service
+    build: task-manager-service
+    ports:
+      - "8080:8080"
